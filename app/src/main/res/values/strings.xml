@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidUtil</string>
+    <string name="jump_permission_page">调到权限设置界面</string>
+</resources>
