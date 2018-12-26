@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.yxliu.androidutil.util.PermissionPageUtils;
+import com.yxliu.androidutil.util.PermissionPageUtil;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_jump_permission_page).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PermissionPageUtils permissionPageUtils = new PermissionPageUtils(MainActivity.this);
-                permissionPageUtils.jumpPermissionPage();
+                PermissionPageUtil permissionPageUtil = new PermissionPageUtil(MainActivity.this);
+                permissionPageUtil.jumpPermissionPage();
             }
         });
 

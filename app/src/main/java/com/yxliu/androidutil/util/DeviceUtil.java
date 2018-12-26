@@ -27,7 +27,7 @@ import java.util.List;
  * Create by Administrator
  * 2018/12/5 22:54
  */
-public class DeviceUtils {
+public class DeviceUtil {
     /**
      * dp 转 px
      * @param context
@@ -217,7 +217,7 @@ public class DeviceUtils {
                     return processName;
                 }
             } catch (Exception e) {
-                Log.e(DeviceUtils.class.getName(), e.getMessage(), e);
+                Log.e(DeviceUtil.class.getName(), e.getMessage(), e);
             }
         }
         return processName;
@@ -248,7 +248,7 @@ public class DeviceUtils {
         /**
          * 如果存在SD卡
          */
-        if (DeviceUtils.isSDCardAvailable() && root != null) {
+        if (DeviceUtil.isSDCardAvailable() && root != null) {
             folder = new File(root, appName);
             if (!folder.exists()) {
                 folder.mkdirs();

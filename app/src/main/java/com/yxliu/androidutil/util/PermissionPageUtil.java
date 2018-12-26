@@ -23,13 +23,13 @@ import java.util.List;
  * Create by Administrator
  * 2018/12/5 22:53
  */
-public class PermissionPageUtils {
+public class PermissionPageUtil {
     private final String TAG = "PermissionPageManager";
     private Context mContext;
     //自己的项目包名
     private String packageName="com.yxliu.androidutil";
 
-    public PermissionPageUtils(Context context) {
+    public PermissionPageUtil(Context context) {
         this.mContext = context;
     }
 
